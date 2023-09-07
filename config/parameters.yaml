@@ -1,0 +1,4 @@
+point_cloud_repub_settings:
+  InputTopic: "/scan"
+  OutputTopic: "/livox_avia_points_test"
+  OutFrame: "livox_avia"

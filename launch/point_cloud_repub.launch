@@ -1,0 +1,7 @@
+<launch>
+  
+  <node name="point_cloud_repub" pkg="point_cloud_repub" type="point_cloud_repub_node" output="screen">
+  <rosparam file="$(find point_cloud_repub)/config/parameters.yaml" command="load" />
+  </node>
+
+</launch>
